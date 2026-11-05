@@ -1,8 +1,13 @@
-# Relocation platform case study
+# Landed: case study
 
-A live AI platform for professionals moving from the UK to the UAE, built solo and in open beta.
+A live AI platform for professionals moving from the UK to the UAE, built solo and in open beta at **[landed.guide](https://www.landed.guide)**.
 
-This repo is a case study, not the product's source. The code is private; [`samples/`](samples/) holds four short excerpts. Live site available on request.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/landed-dark.png">
+  <img src="docs/landed-light.png" width="100%" alt="Landed: the home page asking whether a UAE move is worth it for your household, a salary comparison result, and a sample decision report.">
+</picture>
+
+This repo is a case study, not the product's source. The code is private; [`samples/`](samples/) holds four short excerpts.
 
 ## The problem
 
@@ -18,6 +23,7 @@ The platform serves UK professionals, many with families, deciding whether to mo
 - **CV and LinkedIn tools.** A CV checker scored against UAE recruiter criteria, a CV rewriter and a LinkedIn profile optimiser.
 - **Document analysis.** An employment contract, passport page or degree certificate (PDF or image) goes in; key fields and issues rated by severity come out.
 - **More than 20 further tools and 31 guides**, from an end-of-service gratuity calculator to a UK day counter for tax residence.
+- **Voice assistant (in testing).** Answers relocation questions in English and Arabic from the site's guides and runs the salary comparison live. Configuration and test results: [bilingual-voice-agent](https://github.com/husameltahir/bilingual-voice-agent).
 
 ## Architecture
 
@@ -63,7 +69,7 @@ Measured on 5 November 2026:
 
 ## Screenshots
 
-Branding removed: header and footer hidden, the product name taken out of the text, shown in greyscale. Every screen uses fictional sample data.
+Greyscale desktop captures. Every screen uses fictional sample data; the live design is at the top of this page.
 
 | | |
 | --- | --- |
@@ -84,7 +90,7 @@ Trimmed excerpts; trims are marked `// ...`.
 
 ## Status
 
-Open beta with small traffic. The free tools are open to everyone; paid products sit behind the flags above. Screenshots will be added.
+Open beta with small traffic. The free tools are open to everyone; paid products sit behind the flags above.
 
 ---
 
