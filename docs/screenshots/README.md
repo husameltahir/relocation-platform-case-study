@@ -1,5 +1,7 @@
 # Screenshots
 
-Screenshots to be added.
+Three screens from the live product with its branding removed: header and footer hidden, the product name taken out of the text, and the page shown in greyscale. All use fictional sample data.
 
-They will show the product with its branding removed: no logo, wordmark, domain or brand colours.
+- `salary-comparator.png`: the UK against UAE salary and cost-of-living comparator.
+- `decision-report.png`: a sample decision report for a fictional household.
+- `move-plan.png`: a sample move plan.

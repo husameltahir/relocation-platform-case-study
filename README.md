@@ -61,6 +61,16 @@ Measured on 5 November 2026:
 
 **Skip builds that cannot change the app.** Each kept deployment stores about 47 MB against a 10 GB limit, and on one day 46 of 185 kept deployments had changed only docs or tooling. A build step now skips the build when every changed file is docs, tooling, a test or root-level Markdown. Any doubt (a first deployment, a git error) builds.
 
+## Screenshots
+
+Branding removed: header and footer hidden, the product name taken out of the text, shown in greyscale. Every screen uses fictional sample data.
+
+| | |
+| --- | --- |
+| ![Salary and cost-of-living comparator: UK and UAE monthly leftover side by side](docs/screenshots/salary-comparator.png) | **Salary comparator.** UK take-home after tax and National Insurance against a UAE package, after rent and school fees, with a break-even UAE salary. |
+| ![Sample decision report: the household's answers, then a Hold verdict set by code from the money figures](docs/screenshots/decision-report.png) | **Decision report.** The verdict is set by code from the money figures, not by the language model, so it cannot disagree with the numbers. |
+| ![Sample move plan: visa route steps and UK tax exit checklist for a family moving to Dubai](docs/screenshots/move-plan.png) | **Move plan.** Generated from the household's answers: visa route, UK tax exit, schools and a phased calendar. |
+
 ## Code samples
 
 Trimmed excerpts; trims are marked `// ...`.
